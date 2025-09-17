@@ -9,3 +9,8 @@ if (suma > 50) {
 else {
     console.log("El numero es manor a 50");
 }
+let asterisco = "";
+for (let i = 1 ; i < 12 ; i++){
+    asterisco += "#";
+    console.log(asterisco);
+}
